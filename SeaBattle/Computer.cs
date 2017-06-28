@@ -48,7 +48,7 @@ namespace SeaBattle
                // my.printSea();
                // Console.ReadKey();
                // Console.Clear();
-                Console.WriteLine("Computer seted his desk!");
+                Console.WriteLine("Computer setted his desk!");
                 return;
             }
             

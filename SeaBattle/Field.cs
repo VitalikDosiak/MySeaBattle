@@ -1,20 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace SeaBattle
 {
     public class Field
     {
         public Field() { sea = new int[10, 10]; }
-        //private int empty = 0;
-        //private int myShip = 1;
-        //private int unknown = -1;
-        //private int oponentShip = -2;
-        //private int oponentDead = -3;
-        //movepoint 7
-        //movepoint 9--checking
         public int count = 0;
         private int[,] sea;
         public void eraseSea() 

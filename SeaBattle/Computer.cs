@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace SeaBattle
 {
@@ -39,15 +36,10 @@ namespace SeaBattle
                         {
                             notset = false;
                             my.setShip(myShips[i]);
-                            //my.printSea();
-                            //Console.WriteLine();
                         }
                     }
                     notset = true;
                 }
-               // my.printSea();
-               // Console.ReadKey();
-               // Console.Clear();
                 Console.WriteLine("Computer seted his desk!");
                 return;
             }

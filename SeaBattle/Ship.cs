@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SeaBattle
+﻿namespace SeaBattle
 {
     public struct point {
         public point(int argX, int argY) { x = argX; y = argY; }

@@ -22,7 +22,6 @@ namespace SeaBattle
                 comp.attack();
                 if (first.count == 20) { Console.WriteLine("Computer win!"); second.printSea(); first.printSea(); Console.ReadKey(); return; }
             }
-           // gamer.setMyDesk();
             Console.ReadKey();
         }
     }
